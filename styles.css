@@ -1,0 +1,121 @@
+
+ 
+
+body {
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  text-align: left;
+  
+  
+}
+
+li{
+     display: inline;
+     padding-left: 20px;
+}
+
+/* Back-ground */
+#BG {
+  position: absolute;
+  left: -30px;
+  top: +0px;
+  width: 1172px;
+  height: 52px;
+  z-index: 1;
+}
+
+/*  Home          Features   */
+#Home-Feature {
+  
+  font-size: 14px;
+  top: 19px;
+  font-weight: bold;
+  height: 15px;
+  z-index: 2;
+}
+
+/*  Search Icon */
+#Search-Icon {
+  position: absolute;
+  left: 1135px;
+  top: 17px;
+  width: 17px;
+  height: 18px;
+  z-index: 3;
+}
+
+/* Dropdown menu */
+#dropdown {
+  position: absolute;
+  left: 152px;
+
+  width: 172px;
+  height: 138px;
+  z-index: 4;
+}
+
+
+/* submenu*/
+#Right-sidebar {
+  position: absolute;
+  left: 2.25px;
+  top: 08px;
+  font-weight: normal;
+  height: 15px;
+  z-index: 7;
+   width:160px;
+   border-top:2px double #57BA57;
+   padding-left: 0px;
+padding-right: 40px;
+padding-top: 10px;
+}
+
+
+
+
+/* submenu 1 */
+#right-1 {
+  position: absolute;
+  left: 11px;
+  top: 58px;
+  font-weight: normal;
+  height: 15px;
+  z-index: 9;
+width:140px;
+   border-top:2px double #EDEDED;
+   padding-left: 10px;
+padding-right: 40px;
+padding-top: 10px;
+}
+
+/* submenu 2  */
+#right-2 {
+  position: absolute;
+  left: 11px;
+  top: 108px;
+   font-weight: normal;
+  height: 15px;
+  z-index: 10;
+  width:140px;
+   border-top:2px double #EDEDED;
+   padding-right: 40px;
+   padding-top: 10px;
+    padding-left: 10px;
+}
+
+/*a link*/
+a {
+  cursor: pointer;
+  outline: none;
+  
+  color: #454545
+}
+a:link { color:;
+text-decoration: none; }
+a:visited { color:; }
+a:hover {
+  
+  
+
+  /* font-weight: bold; */
+}
+
